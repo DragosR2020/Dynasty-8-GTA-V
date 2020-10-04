@@ -7,11 +7,11 @@ body {
 }
 
 .container {
-  width: 65%;
+  width: 85%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.3fr 2fr 1fr 0.2fr 0.5fr;
+  grid-template-rows: 0.3fr 1.3fr 1fr 0.5fr 0.5fr;
   grid-template-areas:
   "header"
   "description"
@@ -58,7 +58,7 @@ body {
 .description {
   grid-area: description;
   padding: 1em;
-  font-size: 100%;
+  font-size: 60%;
 }
 
 .map {
